@@ -1,0 +1,31 @@
+# 替换为你实际的 Azure 模型部署名称，根据大家申请的模型调整，可用模型：gpt-5.2、gpt-5.1-codex-max、gpt-5.1-codex
+# 配置完在codex cli里面随时可以用/model切换
+model = "gpt-5.1-codex-max"
+model_provider = "azure"
+# 模型推理力度设置
+model_reasoning_effort = "medium"
+
+
+[model_providers.azure]
+name = "Azure OpenAI"
+# 替换 YOUR_RESOURCE_NAME 为你的 Azure 资源名称
+base_url = "https://tmo-dongshuiluo-resource.openai.azure.com/openai/v1"
+# 指向存储 API 密钥的环境变量名称
+env_key = "AZURE_OPENAI_API_KEY"
+# 使用 Responses API
+wire_api = "responses"
+
+[projects."/Users/robiluo/.codex"]
+trust_level = "trusted"
+
+[projects."/Users/robiluo"]
+trust_level = "trusted"
+
+[projects."/Users/robiluo/aicoding"]
+trust_level = "trusted"
+
+[projects."/Users/robiluo/aicoding/.codex/skills/ui-ux-pro-max"]
+trust_level = "trusted"
+
+[projects."/Users/robiluo/aicoding/tetris"]
+trust_level = "trusted"
