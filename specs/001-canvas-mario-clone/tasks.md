@@ -22,11 +22,11 @@ description: "Task list template for feature implementation"
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Initialize npm project and add Vite with ES modules entry in `package.json`
-- [ ] T002 Create base source layout `src/{main.js,game.js,loop.js,input.js,camera.js}` and `src/physics/{physics.js,collision.js}`
-- [ ] T003 Add lint/test tooling (ESLint + Vitest) config files in repo root
-- [ ] T004 Add script aliases (`dev`, `build`, `test`) in `package.json`
-- [ ] T005 Create placeholder assets directory `src/assets/` and sample Tiled JSON level `assets/levels/demo.json`
+- [X] T001 Initialize npm project and add Vite with ES modules entry in `package.json`
+- [X] T002 Create base source layout `src/{main.js,game.js,loop.js,input.js,camera.js}` and `src/physics/{physics.js,collision.js}`
+- [X] T003 Add lint/test tooling (ESLint + Vitest) config files in repo root
+- [X] T004 Add script aliases (`dev`, `build`, `test`) in `package.json`
+- [X] T005 Create placeholder assets directory `src/assets/` and sample Tiled JSON level `assets/levels/demo.json`
 
 ---
 
