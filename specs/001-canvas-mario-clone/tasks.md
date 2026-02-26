@@ -34,12 +34,12 @@ description: "Task list template for feature implementation"
 
 **Purpose**: Core infrastructure that MUST be complete before ANY user story can be implemented
 
-- [ ] T006 Implement fixed-timestep game loop with accumulator in `src/loop.js`
-- [ ] T007 Wire bootstrap to loop and input initialization in `src/main.js`
-- [ ] T008 Implement deterministic input capture + playback hooks in `src/input.js`
-- [ ] T009 Implement physics integrator (gravity, jump impulse, terminal velocity) in `src/physics/physics.js`
-- [ ] T010 Implement axis-separated AABB collision resolution for tiles in `src/physics/collision.js`
-- [ ] T011 Implement camera follow + clamping to level bounds in `src/camera.js`
+- [X] T006 Implement fixed-timestep game loop with accumulator in `src/loop.js`
+- [X] T007 Wire bootstrap to loop and input initialization in `src/main.js`
+- [X] T008 Implement deterministic input capture + playback hooks in `src/input.js`
+- [X] T009 Implement physics integrator (gravity, jump impulse, terminal velocity) in `src/physics/physics.js`
+- [X] T010 Implement axis-separated AABB collision resolution for tiles in `src/physics/collision.js`
+- [X] T011 Implement camera follow + clamping to level bounds in `src/camera.js`
 - [ ] T012 Load Tiled-style JSON level (tiles, collision, entities, logos) in `src/level/level.js`
 - [ ] T013 Add render pipeline with culling and placeholders in `src/render/render.js`
 - [ ] T014 Add unit tests for loop/physics/collision determinism in `tests/unit/{loop.test.js,physics.test.js,collision.test.js}`
