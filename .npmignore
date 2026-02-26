@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+.cache/
+*.log
+.env
+.env.*
+specs/
+tests/
+.git/
+.github/
+.vscode/
+.idea/
+*.tmp
+*.swp

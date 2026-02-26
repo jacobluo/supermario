@@ -29,3 +29,6 @@ trust_level = "trusted"
 
 [projects."/Users/robiluo/aicoding/tetris"]
 trust_level = "trusted"
+
+[projects."/Users/robiluo/aicoding/supermario"]
+trust_level = "trusted"
